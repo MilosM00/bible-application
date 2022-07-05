@@ -1,0 +1,46 @@
+.navbar{
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    width: 100%;
+}
+
+.hamburger{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.navbar-list{
+    display: grid;
+    place-items: center;
+    position: fixed;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+    top: 50px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 200px;
+    height: 200px;
+}
+
+.navbar-list ul{
+    display: grid;
+    place-items: center;
+    gap: 10px;
+}
+
+.navbar-list ul li{
+    list-style: none;
+}
+
+.navbar-list ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: rgb(0,0,0);
+    text-decoration: none;
+
+}

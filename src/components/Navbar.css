@@ -4,8 +4,10 @@
     position: fixed;
     top: 0;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
     height: 50px;
     width: 100%;
+    z-index: 20;
 }
 
 .hamburger{
@@ -18,6 +20,7 @@
     place-items: center;
     position: fixed;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
     top: 50px;
     left: 0; 
     right: 0; 

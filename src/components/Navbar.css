@@ -1,6 +1,6 @@
 .navbar{
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: space-evenly;
     position: fixed;
     top: 0;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
@@ -10,24 +10,46 @@
     z-index: 20;
 }
 
+.navbar ul{
+    padding-top: 7px;
+    display: flex;
+    gap: 30px;   
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
 .hamburger{
+    display: none;
+    padding-top: 10px;
     font-size: 25px;
     cursor: pointer;
 }
 
 .navbar-list{
-    display: grid;
+    display: none;
     place-items: center;
     position: fixed;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
     background-color: rgb(255, 255, 255);
     top: 50px;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
+    right: 0;  
     width: 200px;
     height: 200px;
+}
+
+.navbar-title{
+    padding-top: 7px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
 }
 
 .navbar-list ul{
@@ -46,4 +68,28 @@
     color: rgb(0,0,0);
     text-decoration: none;
 
+}
+
+
+@media (max-width: 750px) {
+    .navbar ul{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        padding-right: 10px;
+    }
+
+    .navbar{
+        justify-content: space-between;
+    }
+
+    .navbar-title{
+        padding-left: 10px;
+    }
+
+    .navbar-list{
+        display: grid;
+    }
 }

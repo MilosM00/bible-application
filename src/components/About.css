@@ -1,0 +1,101 @@
+.about{
+    padding: 100px 0;
+    display: grid;
+    place-items: center;
+}
+
+.title-about{
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.intro-about{
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    max-width: 700px;
+}
+
+.inline-one{
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.inline-two{
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.inline-three{
+    padding: 0 10px;
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.moses-image{
+    width: 350px;
+    height: 200px;
+}
+
+.jacob-image{
+    width: 350px;
+    height: 200px;
+}
+
+.info-one{
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.info-two{
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.info-three{
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.jewish-section{
+    padding-top: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.law,
+.prophets,
+.writings{
+    padding: 10px;
+    height: 250px;
+    max-width: 370px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.title-jewish{
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: 35px;
+}
+
+.translate{
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: 20px; 
+}
+
+.explain{
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: 17px; 
+}

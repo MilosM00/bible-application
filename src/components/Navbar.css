@@ -27,6 +27,14 @@
     color: rgb(0,0,0);
 }
 
+.navbar ul li p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: rgb(0,0,0);
+    user-select: none;
+    cursor: pointer;
+}
+
 .hamburger{
     display: none;
     padding-top: 10px;
@@ -50,6 +58,8 @@
     padding-top: 7px;
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
+    user-select: none;
+    cursor: pointer;
 }
 
 .navbar-list ul{
@@ -67,7 +77,14 @@
     font-size: 25px;
     color: rgb(0,0,0);
     text-decoration: none;
+}
 
+.navbar-list ul li p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: rgb(0,0,0);
+    user-select: none;
+    cursor: pointer;
 }
 
 

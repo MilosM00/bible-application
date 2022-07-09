@@ -15,7 +15,7 @@
     font-family: sans-serif;
     font-size: 17px;
     text-decoration: none;
-    background-color: rgb(255, 3, 62);
+    background: linear-gradient(to right, #CC5500, #F28C28);
     color: rgb(255,255,255);
     padding: 15px;
     border-radius: 10px;

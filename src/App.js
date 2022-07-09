@@ -11,6 +11,15 @@ const App = () =>{
         setShowList(!showList);
     };
 
+    const scrollUp = () =>{
+        document.body.scrollIntoView();
+    };
+
+    const homeEvent = () =>{
+        setShowList(true);
+        document.body.scrollIntoView();
+    }
+
     return(
 
         <div>
@@ -18,6 +27,8 @@ const App = () =>{
             <Navbar 
                 showList={showList}
                 listEvent={listEvent}
+                scrollUp={scrollUp}
+                homeEvent={homeEvent}
             />
 
             <Home />

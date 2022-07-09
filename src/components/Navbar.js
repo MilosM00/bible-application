@@ -8,7 +8,7 @@ const Navbar = (props) =>{
         
             <div className="navbar">
 
-                <p className="navbar-title">Bible Application</p>
+                <p className="navbar-title" onClick={props.scrollUp}>Bible Application</p>
 
                 <p className="hamburger" onClick={props.listEvent}>
                     {
@@ -17,7 +17,7 @@ const Navbar = (props) =>{
                 </p>
 
                 <ul>
-                    <li><a href="https://github.com/">Home</a></li>
+                    <li><p onClick={props.scrollUp}>Home</p></li>
                     <li><a href="https://github.com/">About</a></li>
                     <li><a href="https://github.com/">Find</a></li>
                 </ul>
@@ -27,9 +27,9 @@ const Navbar = (props) =>{
             {props.showList === false &&
                 <div className="navbar-list">
                     <ul>
-                        <li><a href="https://github.com/">Home</a></li>
-                        <li><a href="https://github.com/">About</a></li>
-                        <li><a href="https://github.com/">Find</a></li>
+                        <li><p onClick={props.homeEvent}>Home</p></li>
+                        <li><a href="https://github.com/" onClick={props.listEvent}>About</a></li>
+                        <li><a href="https://github.com/" onClick={props.listEvent}>Find</a></li>
                     </ul>
                 </div>
             }

@@ -101,3 +101,20 @@
     font-family: 'Arima', cursive;
     font-size: 17px; 
 }
+
+.inline-four{
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.moses-egypt-image{
+    width: 350px;
+    height: 200px;
+}
+
+.info-four{
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    max-width: 600px;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import imageMoses from "../images/moses.jpg";
 import imageJacob from "../images/jacob.jpg";
+import imageMosesEgypt from "../images/moses-egypt.jpg"
 
 const About = () =>{
     return(
@@ -80,6 +81,18 @@ const About = () =>{
 
                 </div>
 
+            </div>
+
+            <div className="inline-four">
+
+                <img src={imageMosesEgypt} className="moses-egypt-image" alt="" />
+
+                <p className="info-four">
+                There were other Jewish writings being produced during the Second Temple period.
+                    And these texts were also highly valued in Jewish communities.
+                    Among that, there was debate from ancient times about whether or not some of these should be considered part of their Scriptures.
+                </p>
+                
             </div>
 
 

@@ -9,7 +9,7 @@ const About = () =>{
 
         <div className="about">
             
-            <p className="title-about">About</p>
+            <p className="title-about">About The Bible</p>
 
             <p className="intro-about">
                 The Bible. It is one of the most influential books in human history. It explores the big questions of why we exist.

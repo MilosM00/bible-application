@@ -8,7 +8,6 @@ const Home = () =>{
             <p className="home-welcome">Welcome!</p>
             <p className="home-nice">Nice to have you here!</p>
             <p className="home-application">This is a bible application</p>
-            <p className="home-story">A short story and explanation</p>
 
             <div className="inline-home">
                 <a href="https://www.bible.com/" target="_blank" rel="noreferrer">Start Reading Now</a>

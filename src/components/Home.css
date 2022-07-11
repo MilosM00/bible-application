@@ -32,10 +32,9 @@
 
 .home-welcome,
 .home-nice,
-.home-application,
-.home-story{
+.home-application{
+    font-family: 'Montserrat', sans-serif;
     padding-top: 50px;
-    font-family: 'PT Mono', monospace;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;

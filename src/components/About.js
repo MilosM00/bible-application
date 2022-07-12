@@ -3,6 +3,9 @@ import "./About.css";
 import imageMoses from "../images/moses.jpg";
 import imageJacob from "../images/jacob.jpg";
 import imageMosesEgypt from "../images/moses-egypt.jpg"
+import imagesAdamEve from "../images/adam-eve.jpg";
+import imagesJesus from "../images/jesus.jpg";
+import imageJesusApostles from "../images/jesus-two.jpg";
 
 const About = () =>{
     return(
@@ -88,11 +91,51 @@ const About = () =>{
                 <img src={imageMosesEgypt} className="moses-egypt-image" alt="" />
 
                 <p className="info-four">
-                There were other Jewish writings being produced during the Second Temple period.
+                    There were other Jewish writings being produced during the Second Temple period.
                     And these texts were also highly valued in Jewish communities.
                     Among that, there was debate from ancient times about whether or not some of these should be considered part of their Scriptures.
                 </p>
                 
+            </div>
+
+            <div className="inline-five">
+
+                <p className="info-five">
+                    <b>Why did they put together all those different writings?</b> <br />
+                    All together these texts tell an epic story about how God is working through these people to bring order
+                    and beauty out of chaos of our world. And it all builds up to a hope for a new leader who would come and renew all creation.
+                </p>
+
+                <img src={imagesAdamEve} alt="" className="image-adam-eve" />
+
+            </div>
+
+            <div className="inline-six">
+
+                <img src={imagesJesus} alt="" className="image-jesus" />
+
+                <p className="info-six">
+                    <b>The story of Jesus Christ</b> <br />
+                    A few centuries later after the Second Temple period a Jewish prophet comes on to the scene named Jesus of Nazareth.
+                    He claimed he was carrying the TaNaK story forward. Jesus did a bunch of amazing stuff and he was killed.
+                    But his followers claimed that he is resurrected. And they said that Jesus was that long-awaited leader who would restore the world.
+                </p>
+
+            </div>
+
+            <div className="inline-seven">
+
+                <p className="info-seven">
+                    <b>About the Apostles</b> <br />
+                    Jesus's earliest followers, called apostles, they composed new literary works about the story of Jesus.
+                    They called this good news or the Gospel. They formed an account called Acts about the spread of the Jesus movement outside of Israel,
+                    and then these circulated letters to different Jesus communities all around the ancient world. <br />
+                    The apostles wrote all of this as the fulfillment of that epic story found in the TaNaK, and they were continuing the literary genius of the Jewish tradition.
+                    They also believed that God was speaking to his people through these texts alongside the Scriptures of Israel.
+                </p>
+
+                <img src={imageJesusApostles} alt="" className="image-jesus-apostles"/>
+
             </div>
 
 

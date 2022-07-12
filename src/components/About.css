@@ -12,6 +12,7 @@
 }
 
 .intro-about{
+    font-family: 'Arima', cursive;
     font-size: 20px;
     max-width: 700px;
 }
@@ -114,6 +115,59 @@
 
 .info-four{
     padding-top: 15px;
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.inline-five{
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.image-adam-eve{
+    width: 350px;
+    height: 200px;
+}
+
+.info-five{
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.inline-six{
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.image-jesus{
+    margin-top: 10px;
+    width: 350px;
+    height: 200px;
+}
+
+.info-six{
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.inline-seven{
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.image-jesus-apostles{
+    margin-top: 100px;
+    width: 350px;
+    height: 200px;
+}
+
+.info-seven{
     font-family: 'Arima', cursive;
     font-size: 20px;
     max-width: 600px;

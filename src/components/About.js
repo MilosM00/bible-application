@@ -138,6 +138,47 @@ const About = () =>{
 
             </div>
 
+            <p className="title-one">What is in my Bible?</p>
+
+            <p className="info-eight">
+                The Cristian movement has taken different forms over 2000 years.
+                And from the beginning all Christians recognized the TaNaK and the New Testament as Scripture.
+                And for centuries much of the Second Temple literature was read as part of the biblical tradition.
+            </p>
+
+            <div className="inline-eight">
+
+                <div>
+
+                    <p className="title-two">The Catholic Curch</p>
+
+                    <p className="more-info-eight">
+                        They eventually made it official and called some of the books from this collection the deuterocanonical books.
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <p className="title-two">The Protestant Christians </p>
+                    <p className="more-info-eight">
+                        In the 1500s during the Reformation, Protestant Christians  wanted to go back to the oldest writings of the prophets and apostles.
+                        So they accepted only the Old and New Testaments.
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <p className="title-two">The Orthodox Curch</p>
+                    <p className="more-info-eight">
+                        They used even more books from this Second Temple literature than the Catholic Church.
+                    </p>
+
+                </div>
+
+            </div>
+
 
         </div>
 

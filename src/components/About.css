@@ -64,7 +64,7 @@
     text-align: center;
     font-family: 'Arima', cursive;
     font-size: 20px;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .jewish-section{
@@ -171,4 +171,45 @@
     font-family: 'Arima', cursive;
     font-size: 20px;
     max-width: 600px;
+}
+
+.title-one{
+    padding-top: 50px;
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info-eight{
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    max-width: 850px;
+}
+
+.inline-eight{
+    font-family: 'Arima', cursive;
+    padding: 0 10px;
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.inline-eight div{
+    padding: 10px;
+    height: 220px;
+    max-width: 350px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.title-two{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.more-info-eight{
+    font-size: 18px;
 }

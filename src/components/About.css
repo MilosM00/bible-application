@@ -1,5 +1,5 @@
 .about{
-    padding: 100px 0;
+    padding-top: 100px;
     display: grid;
     place-items: center;
 }

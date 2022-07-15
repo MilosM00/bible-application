@@ -12,16 +12,14 @@
 }
 
 .inline-home a{
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     text-decoration: none;
     background-color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
     color: rgb(255,255,255);
     padding: 15px;
-    border-radius: 10px;
-    font-weight: 800;
-    
+    border-radius: 10px;  
 }
 
 .inline-home a:hover{

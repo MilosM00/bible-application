@@ -18,8 +18,8 @@ const Navbar = (props) =>{
 
                 <ul>
                     <li><p onClick={props.scrollUp}>Home</p></li>
-                    <li><a href="https://github.com/">About</a></li>
-                    <li><a href="https://github.com/">Find</a></li>
+                    <li><a href="#id-about">About</a></li>
+                    <li><a href="#id-verse">Verse</a></li>
                 </ul>
 
             </div>
@@ -28,8 +28,8 @@ const Navbar = (props) =>{
                 <div className="navbar-list">
                     <ul>
                         <li><p onClick={props.homeEvent}>Home</p></li>
-                        <li><a href="https://github.com/" onClick={props.listEvent}>About</a></li>
-                        <li><a href="https://github.com/" onClick={props.listEvent}>Find</a></li>
+                        <li><a href="#id-about" onClick={props.listEvent}>About</a></li>
+                        <li><a href="#id-verse" onClick={props.listEvent}>Verse</a></li>
                     </ul>
                 </div>
             }

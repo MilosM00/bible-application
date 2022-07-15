@@ -11,7 +11,7 @@ const Home = () =>{
 
             <div className="inline-home">
                 <a href="https://www.bible.com/" target="_blank" rel="noreferrer">Start Reading Now</a>
-                <a href="https://github.com/">Explore More</a>
+                <a href="#id-verse">Find the Verse</a>
             </div>
 
         </div>

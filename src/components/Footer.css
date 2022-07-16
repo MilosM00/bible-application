@@ -1,0 +1,21 @@
+.footer{
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+    background-color: rgb(45, 51, 59);
+}
+
+.info-footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255,255,255);
+}
+
+.info-footer a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.info-footer a:hover{
+    text-decoration: underline;
+}

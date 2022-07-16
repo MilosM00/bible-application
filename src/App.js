@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Chapter from "./components/Chapter";
+import Footer from "./components/Footer";
 
 const App = () =>{
 
@@ -82,6 +83,8 @@ const App = () =>{
                 chapterOnChange={chapterOnChange}
                 verseOnChange={verseOnChange}
             />
+
+            <Footer />
 
         </div>
     );

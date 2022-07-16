@@ -62,3 +62,9 @@ label{
     font-family: 'Montserrat', sans-serif;
     padding-left: 10px;
 }
+
+.something-wrong{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    max-width: 500px;
+}

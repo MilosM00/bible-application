@@ -38,7 +38,7 @@ const Chapter = (props) =>{
                     
                         <button className="button-find" onClick={props.findEvent}>Find</button>
 
-                    {props.dataApi == null ? <p className="something-wrong">Something is wrong. Please Enter values carefully.</p> : <p className="verse">{props.dataApi}</p>}
+                    {props.dataApi == null ? <p className="something-wrong">Something is wrong. Please, enter values carefully.</p> : <p className="verse">{props.dataApi}</p>}
 
                 </div>
 

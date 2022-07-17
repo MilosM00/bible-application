@@ -54,6 +54,7 @@ input:focus{
 
 .verse{
     font-family: 'Courgette', cursive;
+    padding: 0 10px;
     font-size: 25px;
     max-width: 700px;
 }
@@ -65,6 +66,22 @@ label{
 
 .something-wrong{
     font-family: 'Montserrat', sans-serif;
+    padding: 0 5px;
     font-size: 18px;
     max-width: 500px;
+}
+
+
+@media (max-width: 399px) {
+    .overlay-inputs{
+        width: 290px;
+    }
+
+    .verse{
+        font-size: 20px;
+    }
+
+    .title-chapter{
+        font-size: 20px;
+    }
 }

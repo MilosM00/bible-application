@@ -113,6 +113,28 @@ const About = () =>{
 
                     </div>
 
+                    <div className="improve">
+                        <div className="overlay-improve">
+
+                            <div>
+                                <p className="icons"><i className="fa fa-book"></i></p>
+                                <p>Read The Bible</p>
+                            </div>
+
+                            <div>
+                                <p className="icons"><i className="fa fa-arrow-up"></i></p>
+                                <p>Improve Yourself</p>
+                            </div>
+
+                            <div>
+                                <p className="icons"><i className="fa fa-shield"></i></p>
+                                <p>Learn History</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
                     <div className="inline-six">
 
                         <img src={imagesJesus} alt="" className="image-jesus" />
@@ -151,7 +173,7 @@ const About = () =>{
 
                     <div className="inline-eight">
 
-                        <div>
+                        <div className="other-div">
 
                             <p className="title-two">The Catholic Curch</p>
 
@@ -161,7 +183,7 @@ const About = () =>{
 
                         </div>
 
-                        <div>
+                        <div className="more-text-div">
 
                             <p className="title-two">The Protestant Christians </p>
                             <p className="more-info-eight">
@@ -171,7 +193,7 @@ const About = () =>{
 
                         </div>
 
-                        <div>
+                        <div className="other-div">
 
                             <p className="title-two">The Orthodox Curch</p>
                             <p className="more-info-eight">

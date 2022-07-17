@@ -50,12 +50,14 @@
 
 .info-one{
     font-family: 'Arima', cursive;
+    padding: 0 5px;
     font-size: 20px;
     max-width: 600px;
 }
 
 .info-two{
     font-family: 'Arima', cursive;
+    padding: 0 5px;
     font-size: 20px;
     max-width: 600px;
 }
@@ -63,6 +65,7 @@
 .info-three{
     text-align: center;
     font-family: 'Arima', cursive;
+    padding: 0 5px;
     font-size: 20px;
     max-width: 500px;
 }
@@ -116,6 +119,7 @@
 .info-four{
     padding-top: 15px;
     font-family: 'Arima', cursive;
+    padding: 0 5px;
     font-size: 20px;
     max-width: 600px;
 }
@@ -133,6 +137,7 @@
 
 .info-five{
     font-family: 'Arima', cursive;
+    padding: 0 5px;
     font-size: 20px;
     max-width: 600px;
 }
@@ -151,6 +156,7 @@
 
 .info-six{
     font-family: 'Arima', cursive;
+    padding: 0 5px;
     font-size: 20px;
     max-width: 600px;
 }
@@ -169,6 +175,7 @@
 
 .info-seven{
     font-family: 'Arima', cursive;
+    padding: 0 5px;
     font-size: 20px;
     max-width: 600px;
 }
@@ -182,6 +189,7 @@
 
 .info-eight{
     font-family: 'Arima', cursive;
+    padding: 0 5px;
     font-size: 20px;
     max-width: 850px;
 }
@@ -194,7 +202,8 @@
     gap: 20px;
 }
 
-.inline-eight div{
+.other-div,
+.more-text-div{
     padding: 10px;
     height: 220px;
     max-width: 350px;
@@ -211,5 +220,136 @@
 }
 
 .more-info-eight{
+    padding: 0 5px;
     font-size: 18px;
+}
+
+.improve{
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: rgb(250, 250, 250);
+    width: 1000px;
+    display: grid;
+    place-items: center;
+}
+
+.overlay-improve{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.overlay-improve div{
+    display: grid;
+    place-items: center;
+    gap: 10px;
+}
+
+.icons{
+    color: rgb(235, 119, 25);
+    font-size: 30px;
+}
+
+
+@media (max-width: 1157px) {
+    .inline-three{
+        display: grid;
+        place-items: center;
+    }
+} 
+
+@media (max-width: 999px) {
+    .improve{
+        width: 100%;
+    }
+
+    .inline-one{
+        display: grid;
+        place-items: center;
+        padding-top: 0;
+    }
+
+    .inline-two{
+        display: grid;
+        place-items: center;
+        gap: 10px;
+    }
+
+    .inline-four,
+    .inline-five,
+    .inline-six,
+    .inline-seven,
+    .inline-eight{
+        display: grid;
+        place-items: center;
+    }
+
+    .image-jesus-apostles,
+    .image-jesus{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 699px) {
+    .intro-about{
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 399px) {
+    .prophets{
+        width: 280px;
+        height: 300px;
+    }
+
+    .law,
+    .writings{
+        width: 280px;
+        height: 250px;
+    }
+
+    .image-adam-eve,
+    .image-jesus,
+    .image-jesus-apostles,
+    .moses-image,
+    .jacob-image,
+    .moses-egypt-image{
+        width: 290px;
+    }
+
+    .other-div{
+        width: 280px;
+        height: 230px;
+    }
+
+    .more-text-div{
+        width: 280px;
+        height: 310px;
+    }
+
+    .info-one,
+    .info-two,
+    .info-three,
+    .info-four,
+    .info-five,
+    .info-six,
+    .info-seven,
+    .info-eight,
+    .title-one,
+    .intro-about,
+    .title-about,
+    .overlay-improve{
+        font-size: 15px;
+    }
+
+    .title-two,
+    .translate{
+        font-size: 17px;
+    }
+
+    .title-jewish{
+        font-size: 20px;
+    }
 }

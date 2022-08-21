@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/bible-application/static/css/main.2f06dfbc.css",
+    "main.js": "/bible-application/static/js/main.c286164f.js",
+    "static/media/adam-eve.jpg": "/bible-application/static/media/adam-eve.c9a9ad9f3be308ab21b7.jpg",
+    "static/media/jacob.jpg": "/bible-application/static/media/jacob.7955f174be7e51a41ae6.jpg",
+    "static/media/moses-egypt.jpg": "/bible-application/static/media/moses-egypt.bd46e2f288f9300f5091.jpg",
+    "static/media/jesus-two.jpg": "/bible-application/static/media/jesus-two.9d916a2d884813d3976a.jpg",
+    "static/media/jesus.jpg": "/bible-application/static/media/jesus.cc300baa640d2efa54b5.jpg",
+    "static/media/moses.jpg": "/bible-application/static/media/moses.1bbacdc53199402fde61.jpg",
+    "index.html": "/bible-application/index.html",
+    "main.2f06dfbc.css.map": "/bible-application/static/css/main.2f06dfbc.css.map",
+    "main.c286164f.js.map": "/bible-application/static/js/main.c286164f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f06dfbc.css",
+    "static/js/main.c286164f.js"
+  ]
+}
